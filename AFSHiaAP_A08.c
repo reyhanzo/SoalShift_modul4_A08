@@ -8,9 +8,11 @@
 #include <errno.h>
 #include <sys/time.h>
 
+
 static const char *dirpath = "/home/reyhanzo/shift4";
 char ciph[] = "qE1~ YMUR2\"`hNIdPzi%^t@(Ao:=CQ,nx4S[7mHFye#aT6+v)DfKL$r?bkOGB>}!9_wV']jcp5JZ&Xl|\\8s;g<{3.u*W-0";
-char enpath[1000], depath[1000]
+char enpath[1000], depath[1000];
+int key = 17;
 
 void encrypt(char change[])
 {
